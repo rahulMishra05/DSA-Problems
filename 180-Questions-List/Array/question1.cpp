@@ -47,3 +47,18 @@ int main(){
 
     return 0;
 }
+
+
+/*
+Notes to solve this problem
+
+1. First approach that we will follow will be brute force, in this we will sort the array, and thus desired results will be acheived. Time complexity of this solution is O(nlog(n)) and space complexity will be O(1)
+
+2. Now we can optimize the solution using the counting sort algorithm. 
+    @ In this approach we will traves through the array and count the number of 0's 1's and 2's.
+    @ Once we have the counting we can run a loop to insert zeros at first 5 indexs and then we can insert 1 then 2.
+    @ Therefore time conplexity for the first pass will be O(n) and for second pass O(n), total time complexity will be         O(2n)
+3. This problem is a variation of Dutch National Flag Algorithm.
+
+4. Time complexity using Dutch National Flag Algorithm will be O(n) and space complexity will be O(1)
+*/
