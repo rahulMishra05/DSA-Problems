@@ -1,0 +1,7 @@
+                Notes 
+***************************************************************************************
+
+1. Time complexity: Time complexity of an algorithm quantifies the amount of time taken 
+    by a program to run as a function of length of the input.
+
+2. To practice some questions use this website: https://www.geeksforgeeks.org/practice-questions-time-complexity-analysis/
