@@ -7,3 +7,6 @@
 3. To implement binary search the elements in the array should be present in sorted order.
 
 4. Time complexity of binary search is O(log(n))
+
+5. Selection Swap: Find the minimum element in unsorted array and wap
+	it with element at begining.
