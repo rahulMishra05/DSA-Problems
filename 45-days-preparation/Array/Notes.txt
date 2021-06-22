@@ -2,4 +2,8 @@
 
 1. Array: It is a list of variables of similar types
 
-2. 
+2. Time complexity of linear search is O(n)
+
+3. To implement binary search the elements in the array should be present in sorted order.
+
+4. Time complexity of binary search is O(log(n))
