@@ -10,3 +10,11 @@
 
 5. Selection Swap: Find the minimum element in unsorted array and wap
 	it with element at begining.
+
+6. Bubble Sort: Reapetedly swap two adjacent elements if they are in wrong order.
+	@ After the first pass the largest element will come at the last position.
+	@ We will repeat this step, untill we get a completely sorted array.
+	@ If the lenght of our array is "n", then we have to do "n-1" iteration to get sorted array.
+
+	
+
