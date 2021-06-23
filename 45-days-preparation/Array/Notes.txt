@@ -16,5 +16,7 @@
 	@ We will repeat this step, untill we get a completely sorted array.
 	@ If the lenght of our array is "n", then we have to do "n-1" iteration to get sorted array.
 
-	
+7. Insertion Sort: Insert an element from unsorted array to its correct position in sorted array.
+
+
 
