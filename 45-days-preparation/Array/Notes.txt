@@ -18,5 +18,11 @@
 
 7. Insertion Sort: Insert an element from unsorted array to its correct position in sorted array.
 
+8. Subarray: Continuous part of the array.
+	@ Number of subarrays of an array with n elements = nC2 + n = n*(n+1) / 2
 
+9. Subsequence: A subsequence is a sequence that can be derived an array by selecting zero or more
+	elements, without changing the order of the remaining elements.
+	@ Number of subsequences of an array with n elements = 2^n
 
+**NOTE**: Every subarray is a subsequence but every subsequence is not a subarray.
