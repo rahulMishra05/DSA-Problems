@@ -26,3 +26,12 @@
 	@ Number of subsequences of an array with n elements = 2^n
 
 **NOTE**: Every subarray is a subsequence but every subsequence is not a subarray.
+
+10. Sprial Order Matrix Traversal:
+	@ row_start + 1
+	@ column_end -1
+	@ row_end - 1
+	@ column_start + 1
+
+	# row_start <= row_end
+	# column_start <= colunm_end
