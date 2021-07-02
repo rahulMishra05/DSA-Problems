@@ -35,3 +35,10 @@
 
 	# row_start <= row_end
 	# column_start <= colunm_end
+
+11. Character array: Character array are array of characters
+	@ We declare n+1 size of the array, because the last element is null character.
+	@ Last element is null element, because character array contains sentense and sentence have spaces
+		So if when the sentence ends compiler will not understand that whether the sentence has been ended or more 
+		characters are there to be inserted.
+	
