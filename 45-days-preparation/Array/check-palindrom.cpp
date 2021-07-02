@@ -8,7 +8,7 @@ int main(){
     cout<<"Please enter the size of the array: ";
     cin>>n;
 
-    char arr[n];
+    char arr[n+1];
     cout<<"Please enter any word: ";
     cin>>arr;
 
