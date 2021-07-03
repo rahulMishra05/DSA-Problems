@@ -1,0 +1,42 @@
+                NOTES
+**************************************************************************
+
+1. No need to know size beforehand.
+
+2. Performing operations like concatenation & append is easier.
+
+3. Terminate with a special character '\0'
+
+4. In string if we want to enter a sentence than we have to use "getline()"
+    @ We can use that in this way
+        string str;     // Declared a string
+        getline(cin, str);      // Taking input
+        cout<< std << endl;     // Printing output
+
+5. If we want to combine/append two strings than we can do that in two ways
+    @ string s1 = "fam";
+    string s2 = "ily";
+     
+     then one way is like this "s1.append(s2)" => In this s1 is getting changed.
+     Another way is like this " cout<<s1 + s2 " => Here we are simply adding the two string and no original sting is getting changed.
+
+6. Suppose we have a string named "abc" and we have some values in it, now we want to clear it  
+    so we can clear that string using clear funciton just like this 
+    " abc.clear(); "
+
+7. If we want to compare two strings than we can use "compare" function 
+
+8. if we want to check whether our string is empty or not than we can do that by using empty function 
+
+9. To delete some character from the string we use erase() function
+
+10. To find somethings in the string we sue find() function
+
+11. insert() funciton
+
+12. size() or length() => To find the length of the string
+
+13. To find the substring of the string we can use substr() function
+
+14. String to integer => stoi()
+    @ Integer to string => to_string()
