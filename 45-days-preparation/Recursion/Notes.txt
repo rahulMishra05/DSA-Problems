@@ -1,0 +1,7 @@
+                    NOTES
+******************************************************************************************************************
+
+1. Recursion: Function call itself
+
+2. We can apply recursion on "Factorial" and "Fibonacci" series
+
