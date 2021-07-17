@@ -1,0 +1,19 @@
+                NOTES
+*********************************************************************************************************************
+
+1. Merge Sort: 
+    @ In merge sort what we is that we divide the array into two parts 
+        and after dividing that array into two parts we again apply merge sort on them.
+
+2. Sudo code:
+    MergeSort(arr[], l, r){
+        if(l < r){
+            mid = (l + r)/2
+            MergeSort(arr[], l, mid)
+            MergeSort(arr[], mid+1, r)
+
+            MergeSort(arr[], l, mid, r)
+        }
+    }
+
+3. In merge sort we have a function which merge two sorted array.
