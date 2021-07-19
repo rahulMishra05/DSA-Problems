@@ -17,3 +17,37 @@
     }
 
 3. In merge sort we have a function which merge two sorted array.
+
+4. Quick sort: The idea behind quick sort algorithm is that, the element should be 
+    greater than the elements present on its left and smaller than the elements present at its right.
+    If this is true than that element is in sorted position, rest all the elements may be sorted or may 
+    not be sorted. 
+    @ Quick Sort is a divide and conqure algorithm
+    @ Sudo code:
+    
+    partition(l,h){
+        pivot = a[l];
+        i = l; j = h;
+        while(i<j){
+            do{
+                i++;
+            }while(A[i]<=pivot);
+
+            do{
+                j--;
+            }while(A[j]>pivot);
+            if(i<j){
+                swap(A[i], A[j]);
+            }
+        }
+
+        return j;
+    }
+
+    quickSort(l,h){
+        if(l<h){
+            j=partition(l,h);
+            quickSort(l,j);
+            quickSort(j+1, h);
+        }
+    }
