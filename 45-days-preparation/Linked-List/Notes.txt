@@ -1,0 +1,15 @@
+                NOTES
+***************************************************************************************************************************
+
+1. Array is single block of memory with paritions, while Linked List is 
+    multiple blocks of memory linked to each other.
+
+2. Limitations in array:
+    @ Fixed size
+    @ Contiguous block of memory
+    @ Inserting and deleting is costly
+
+3. Properties of Linked List
+    @ Size can be modified 
+    @ Non-Contiguous memory
+    @ Insertion and deletion at ay point is easier
