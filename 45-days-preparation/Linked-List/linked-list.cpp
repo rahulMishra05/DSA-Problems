@@ -24,10 +24,12 @@ void insertAtTail(node* &head, int val){
     }
 
     node* temp = head;
+
+    // Traversing the linked list to reach the last element
     while(temp->next!=NULL){
         temp=temp->next;
     }
-    temp->next-n;
+    temp->next=n;
 }
 
 void display(node* head){
