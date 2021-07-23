@@ -17,3 +17,6 @@
 4. If we want to delete nth node of the linked list then in that case we have to
 	put the address of n+1 node in n-1 node.
 	
+5. There are two methods to reverse the linked list.
+    @ Iterative method
+    @ recursive method
