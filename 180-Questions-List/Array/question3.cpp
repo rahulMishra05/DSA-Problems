@@ -7,6 +7,9 @@ void merge(int arr1[], int arr2[], int n1, int n2){
     for(int i=0; i<n1; i++){
         if(arr1[i] > arr2[0]){
             swap(arr1[i], arr2[0]);
+
+            // We will store the first element of array2 and left shift all the element and store the 
+            // first element in arr2[k-1]
             int first = arr2[0];
 
             // Sorting the A2 array
