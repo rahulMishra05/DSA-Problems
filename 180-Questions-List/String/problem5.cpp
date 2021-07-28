@@ -32,8 +32,7 @@ string longestCommonPrefix(string a[], int n){
     if(count == 0)
         return "-1";
     else
-        return s.substr(0,count);
-    
+        return s.substr(0,count);    
 }
 
 int main(){
