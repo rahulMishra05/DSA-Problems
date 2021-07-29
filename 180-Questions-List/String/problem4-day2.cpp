@@ -21,14 +21,14 @@ bool areAnagram(string str1, string str2){
         }
     }
 
-    return false;
+    return true;
 }
 
 int main(){
     string str1 = "car";
     string str2 = "arc";
 
-    if(areAnagram){
+    if(areAnagram(str1, str2)){
         cout<<"Strings are anagram";
     }
     else{
