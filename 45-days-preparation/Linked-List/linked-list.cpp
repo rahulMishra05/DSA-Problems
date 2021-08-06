@@ -20,6 +20,7 @@ void insertAtHead(node* &head, int val){
     head=n;
 }
 
+// The value of head is taken by reference not by value. This is becasue we are modifying our linked list 
 void insertAtTail(node* &head, int val){
 
     node* n = new node(val);
@@ -38,6 +39,8 @@ void insertAtTail(node* &head, int val){
     temp->next=n;
 }
 
+
+// Here we are calling head by value, not by reference becasue we are not modifying our linked list.
 void display(node* head){
     node* temp=head;
     while(temp!=NULL){
