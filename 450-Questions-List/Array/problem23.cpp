@@ -17,7 +17,7 @@ int maxSubarrayMultiplication(int arr[], int n){
         result = max(result, mul);
     }
 
-    return result;
+    return   result;
 }
 
 int main(){
