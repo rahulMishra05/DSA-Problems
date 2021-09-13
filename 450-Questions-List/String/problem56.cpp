@@ -24,7 +24,8 @@ int main(){
     }
 
     // Time complexity of this loop is O(n)
-    for(int i=0; i<n; i++){
-        cout<<str[i];
-    }
+    // for(int i=0; i<n; i++){
+    //     cout<<str[i];
+    // }
+    cout<<str;
 }
